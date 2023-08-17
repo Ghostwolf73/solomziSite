@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/8b8946401c.js" crossorigin="anonymous"></script>
+    <title>Solomzi</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="nav-bar">
+        <h1 class="logo">Solomzi</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Resume</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#phone" id="phone">+27128374939</a></li>
+        </ul>
+    </nav>
+    
+    <header id="Home">
+        <div class="header-content">
+            <h1>Hello, Solomzi here.</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit ipsum lectus, ac iaculis dui tristique et. Nullam leo lorem, fringilla sed luctus a, imperdiet et mauris. In congue sapien nec orci euismod, a tincidunt ex finibus. <br></p>
+
+            <div class="icon">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+     <!-- About me-->
+     <section id="About">
+        <div class="title">
+            <h1>Who am I?</h1>
+        </div>
+
+        <div class="container">
+            <div class="image">
+                <img src="./images/photo_2023-02-06_15-44-05.jpg">
+            </div>
+
+            <div class="text">
+                <p>Proin at varius ex. Phasellus venenatis tempor lectus non mattis. Phasellus in urna tincidunt, convallis
+                    nulla in, rhoncus tellus. Donec accumsan lacus et sodales dapibus. Curabitur sit amet felis vitae urna
+                    laoreet rutrum a eget eros. Donec et consectetur massa. Nam eget aliquam sem. Nunc convallis quam eu
+                    diam sodales eleifend. Nunc lorem dui, interdum eget dolor nec, sollicitudin elementum nunc. Vivamus at
+                    justo nibh. Donec viverra euismod feugiat.</p>
+            </div>
+        </div>
+        
+    </section>
+
+     <!-- Services -->
+     <div class="services" id="Services">
+
+        <div class="title">
+            <h1>My Services</h1>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="./images/images.jpeg" alt="web dev animated picture">
+                <h4>Web dev</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis neque et accumsan euismod.
+                    Aenean non augue consequat lorem dignissim efficitur.</p>
+            </div>
+
+            <div class="col">
+                <img src="./images/360_F_579329988_WIJBbeZCpHqzCklCzMaRYA8NR0rqkDjA.jpg" alt="network engineer animated picture">
+                <h4>Networking</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis neque et accumsan euismod.
+                    Aenean non augue consequat lorem dignissim efficitur.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- contact me -->
+    <div class="contact" id="Contact">
+        <div class="title">
+            <h1>How to find me?</h1>
+        </div>
+
+        <p>
+            I'm active on social media, all platforms from instagram, facebook, twitter and youtube.<br>
+            My services and customer service is almost always available on any timezone.<br>
+        </p>
+
+        <h2>Wanna leave a message?</h2>
+        <div class="Form_container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">South Africa</option>
+                <option value="canada">China</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </div>
+
+    <footer>
+        <p>Copyright @2023 | Designed by Solomzi</p>
+    </footer>
+</body>
+</html>
